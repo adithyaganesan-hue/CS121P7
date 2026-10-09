@@ -19,6 +19,7 @@ classDiagram
         +Address()
         +void init(String street, String city, String state,String zip)
         +String getAddress()
+        +String printAddress()
     }
     class Student{
         -String studentString
