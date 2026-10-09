@@ -10,7 +10,7 @@ address.o: address.cpp address.h
 run: useStudent 
 	./useStudent
 clean: 
-	rm horseRace
+	rm useStudent
 	rm *o
 
 debug: useStudent
